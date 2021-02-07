@@ -1,5 +1,12 @@
 /*
-BOTMF
+* JANGAN UBAH-UBAH INFO!!!
+* "JANGAN MODAL NAMA DOANG BRO!!!"
+* SCRIPT BY ARIS187 ID
+* JANGAN MODAL NAMA DOANG BOSQ
+* HARGAILAH YG MEMBUAT SCRIPT INI BOSQ
+* JANGAN UBAH-UBAH INFO!!!
+* ARIS187 ID
+* BOLEH UBAH TAPI KECUALI INFO!!!
 */
 const qrcode = require("qrcode-terminal")
 const moment = require("moment-timezone")
@@ -11,12 +18,12 @@ const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Jul
 const bulan = arrayBulan[moment().format('MM') - 1]
 
 const config = {
-    A187: '',
-    instagram: '',
-    nomer: '',
-    aktif: '',
-    youtube: '',
-    whatsapp: '',
+    A187: '📍SAMU330📍',
+    instagram: 'https://www.instagram.com/Samu3_30/',
+    nomer: 'wa.me/+529984907794',
+    aktif: '21 DEC',
+    youtube: 'https://www.youtube.com/channel/UCqPXxG2ZdDe_ugOqMHDRMqg?view_as=subscriber',
+    whatsapp: 'https://wa.me+529984907794',
     tanggal: `FECHA: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
 }
